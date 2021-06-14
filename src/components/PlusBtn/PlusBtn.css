@@ -1,0 +1,26 @@
+.cls-1 {
+  fill: none;
+  stroke-miterlimit: 10;
+  stroke-width: 1.3px;
+  stroke: url(#linear-gradient);
+}
+.cls-2 {
+  fill: url(#linear-gradient-2);
+}
+
+.plusBtn {
+  width: 6vw;
+  height: 6vh;
+  margin-bottom: 1em;
+}
+
+.plusBtn:hover + .text-btn-container {
+  background-color: blue;
+  border-image: linear-gradient(
+    to left,
+    rgba(151, 225, 135, 1),
+    rgba(251, 210, 92, 1),
+    rgba(187, 55, 254, 1)
+  );
+  border-image-slice: 1;
+}

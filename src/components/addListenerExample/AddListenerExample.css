@@ -1,0 +1,33 @@
+.add-listener-btn {
+  border: solid 0.4vh;
+  border-image: linear-gradient(
+    90deg,
+    rgba(92, 184, 209, 1) 0%,
+    rgba(223, 92, 255, 1) 52%,
+    rgba(255, 23, 68, 1) 100%
+  );
+  border-image-slice: 1;
+  text-align: center;
+  font-size: 1.5vw;
+  fill: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 1vh;
+  width: 10vw;
+  height: 5vh;
+}
+
+.add-listener-example {
+  width: 30vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.rhombus-listener {
+  width: 10vw;
+}

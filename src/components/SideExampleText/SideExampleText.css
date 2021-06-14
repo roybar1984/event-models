@@ -1,0 +1,16 @@
+.title-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 48vw;
+  height: 45vh;
+  align-self: normal;
+  text-align: start;
+}
+
+.side-example-text-title {
+  text-align: start;
+  width: 33vw;
+  padding-bottom: 0.5em;
+}

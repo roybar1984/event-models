@@ -1,0 +1,44 @@
+@font-face {
+  font-family: IBMPlexMono;
+  src: url(../../fonts/IBMPlexMono-Medium.ttf);
+}
+
+.code-font {
+  font-family: IBMPlexMono;
+}
+
+.black-code-block-container {
+    /* width: 43vw; */
+    width: fit-content;
+    min-width: 33vw;
+    min-height: 2vh;
+    padding: 0.7em;
+    background-color: black;
+    margin: auto;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    direction: ltr;
+}
+
+.block-with-border {
+  border: solid white 0.04em;
+  border-radius: 0.4em;
+}
+
+.js-code-block {
+  width: 38vw;
+  height: 31vh;
+  text-align: justify;
+  font-size: 1vw;
+}
+
+.html-code-block {
+  width: 38vw;
+  height: 19vh;
+  text-align: justify;
+  font-size: 1vw;
+}
+
+

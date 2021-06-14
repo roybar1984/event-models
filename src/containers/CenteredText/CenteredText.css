@@ -1,0 +1,58 @@
+.centered-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50vh;
+  right: 50vw;
+  transform: translate(50%, -50%);
+}
+
+.main-title {
+  width: 30vw;
+  border-bottom: solid;
+  border-image: linear-gradient(to left, #5cb8d1, #df5cff, #ff1744);
+  border-image-slice: 1;
+  padding: 0.3em;
+  font-size: 3.5vw;
+  font-weight: 600;
+  padding-bottom: 0.5em;
+}
+
+.centered-text {
+  width: 85vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-with-examples-container {
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dots-container {
+  width: 3.5vw;
+  height: 2vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dots {
+  width: 2vw;
+  height: 2vh;
+  stroke: #fff;
+  stroke-miterlimit: 10;
+}
+
+.selected-dot {
+  fill: #e879f9;
+}
+
+.empty-dot {
+  fill: none; 
+}
